@@ -1,0 +1,9 @@
+<h1>Parcels</h1>
+  <h1>Parcel City</h1>
+  @foreach(var jim in Model)
+  {
+    <p>@jim.costToShip()</p>
+    <p>@jim.Volume()</p>
+  }
+
+<a href="/items/new">Add a new item.</a>
